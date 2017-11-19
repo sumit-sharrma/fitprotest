@@ -1,0 +1,189 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "FitPro: Fitness Professionals & Yoga Trainers"
+languageCode = "en-us"
+theme = "hugo-icon"
+
+# Metadata
+[params]
+  author = "Your name"
+  description = "Cool description"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/main-head.jpg"
+  title = "Lose your mind. Find your Soul"
+  
+
+# Navigation section
+[params.nav]
+  mission = "Our Mission"
+  services = "Services"
+  review = "Reviews"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "images/fp-logo-web-1.png"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/1-min.jpg"
+    [[params.mission.images.list]]
+      img = "images/9-min.jpg"
+    [[params.mission.images.list]]
+      img = "images/3-min.jpg"
+    [[params.mission.images.list]]
+      img = "images/10-min.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "Problem"
+    subtitle = "Good health and good sense are two of life's greatest blessings."
+    description = "<p>In today's hectic and fast paced life with our irregular eating habbits, the junk that we eat, irregular sleep has resulted in that early belly shaped stomach or baldness. These are the things that are making it difficult to maintain ourself, it is becoming more of a challenge today to maintain our body/health.</p><p>And for the same reasons you should exercise or do Yoga.</p><ul class='checked'><li>Take care of your body. It's the only place you have to live.</li></ul><p></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Solution"
+    subtitle = "The great solution to all human problems is individual inner transformation"
+    description = "<p>Yes, you heard it right. You are the solution. You have to take the first step to fight against these irregularities. Take the first step and we promise you that we will help you to achieve the solution to your problems.</p><p>This is where we come, we as <b>Fit</b>ness<b>Pro</b>fessionals. We will help you to build up a routine to make you healthy, a mixed dose of Exercise + Yoga. We are currently working in <b>New Delhi</b> and classes can be scheduled according to your schedule.</p><ul class='checked'><li>To every problem there is already a solution whether you know it or not.</li></ul><p></p>"
+
+ 
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "https://www.youtube.com/watch?v=6V7eTZxwBOQ"
+  title = "Our Services"
+  description = "What we do is what we offer."
+
+  [[params.services.item]]
+    image = "images/fp-service-yoga.svg"
+    title = "YOGA"
+    description = "Yoga is the fountain of youth. You're only as young as your spine is flexible."
+
+
+  [[params.services.item]]
+    image = "images/fp-service-acroyoga.svg"
+    title = "ACROYOGA"
+    description = "Acroyoga is a physical practice which combines yoga and acrobatics."
+
+  [[params.services.item]]
+    image = "images/fp-service-diet.svg"
+    title = "DIET PLANNER"
+    description = "You don't have to eat LESS, You just have to eat RIGHT."
+
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Chakrasan + Bhunamanasana"
+    img = "images/7-min.jpg"
+
+  [[params.work.item]]
+    title = "Chakrasan + Mayurasana"
+    img = "images/6-min.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    img = "images/new-1.jpg"
+
+  [[params.work.item]]
+    title = "Back Bending + Modern Yoga"
+    img = "images/8-min.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    img = "images/5-min.jpg"
+
+  [[params.work.item]]
+    title = "Eka pada Hastasan"
+    img = "images/4-min.jpg"
+
+  [[params.work.item]]
+    title = "Vrischika Asana"
+    img = "images/new-3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    img = "images/new-2.jpg"
+
+
+# Review section
+[params.review]
+  enable = false
+  title = "Reviews"
+  description = "See it yourself."
+
+  [[params.review.item]]
+    img = "images/edited.jpg"
+
+  [[params.review.item]]
+    img = "images/edited.jpg"
+
+  [[params.review.item]]
+    img = "images/edited.jpg"
+
+  [[params.review.item]]
+    img = "images/edited.jpg"
+
+  [[params.review.item]]
+    img = "images/edited.jpg"
+
+  [[params.review.item]]
+    img = "images/edited.jpg"
+  
+  [[params.review.item]]
+    img = "images/edited.jpg"
+
+  [[params.review.item]]
+    img = "images/edited.jpg"
+
+
+
+
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "Our talented team."
+
+  [[params.team.item]]
+    name = "Rahul Mishra"
+    position = "Yog Guru"
+    description = "Practitioner of Ashtanga Yoga | Physics lover | Philosopher | 13 years experience of Yoga."
+    img = "images/rahul-profile.jpg"
+    facebook = "https://www.facebook.com/rahul.mishra.1042"
+    instagram = "https://www.instagram.com/yogi_rahul/"
+
+  [[params.team.item]]
+    name = "Prashant Sharma"
+    position = "Fitness Enthusiast"
+    description = "Fitness enthusiast yoga trainer, Sports lover | philosopher 10 years of experience."
+    img = "images/prashant-head.jpg"
+    facebook = "https://www.facebook.com/cool.prashant2"
+    instagram = "https://www.instagram.com/prashant__sharrma/"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Talk to us. We are here for you."
+
+
+[params.footer]
+  enable = true
+  twitter = "https://www.twitter.com/fitallpro"
+  facebook = "https://www.facebook.com/fitallpro"
+  instagram = "https://www.instagram.com/fitallpro"
